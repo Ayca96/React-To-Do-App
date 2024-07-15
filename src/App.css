@@ -9,9 +9,11 @@
 body {
   height: 100vh;
   font-family: "Poppins", sans-serif;
-  background-image: url(./img/allessteht.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(204, 16, 119),
+    rgb(231, 191, 213)
+  );
 
   
 }
@@ -36,7 +38,7 @@ h1{
 }
 
 .sariFalse {
-  background: #5BB1EF;
+  background: #D06006;
   margin: 5px;
   padding: 10px 20px;
   cursor: pointer;
