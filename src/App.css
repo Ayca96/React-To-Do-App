@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-image: url(./img/allessteht.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  
+}
+.container {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 15rem auto;
+  max-width: 500px;
+  padding: 2rem;
+  border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1{
+ color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+ h3 {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+}
+
+.sariFalse {
+  background: #5BB1EF;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.griTrue {
+  border-left: 10px solid rgb(102, 18, 77);
+  text-decoration: line-through;
+  background-color: rgba(201, 192, 198, 0.5);
+  padding: 10px 20px;
+
+}
+
+header {
+  text-align: center;
+  margin: 1rem;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 1rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+
+.formControl {
+  margin: 20px 0;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.formControl input {
+  width: 100%;
+  height: 40px;
+  padding: 1rem;
+  font-size: 17px;
+  border-radius: 5px;
+  border: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-submit {
+  /* display: block; */
+  width: 100%;
+  background-color: #B5242C;
+  margin: 2rem 0;
 }
