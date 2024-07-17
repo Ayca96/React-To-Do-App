@@ -6,52 +6,46 @@
   padding: 0;
 }
 
-body {
+body{
   height: 100vh;
-  font-family: "Poppins", sans-serif;
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(204, 16, 119),
-    rgb(231, 191, 213)
-  );
+  background-image: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4, #fbc2eb, #fbc2eb);
+  font-family:"Poppins", sans-serif;
 
-  
 }
+
 .container {
-  background-color: rgba(0, 0, 0, 0.3);
-  margin: 15rem auto;
-  max-width: 500px;
-  padding: 2rem;
-  border-radius: 5px;
+background-color: rgba(0, 0, 0, .1);
+
+ margin: 3rem auto;
+ max-width: 600px;
+ padding: 2rem;
+
+ border-radius: 5px;
 }
 
-h1{
- color: white;
-}
-
-
-
- h3 {
+h3 {
+  margin-top: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+/* yapılmamış false */
 .sariFalse {
-  background: #D06006;
+
+  background: rgb(193, 193, 61);
   margin: 5px;
   padding: 10px 20px;
   cursor: pointer;
 }
-
+/* yapılmış true */
 .griTrue {
   border-left: 10px solid rgb(102, 18, 77);
   text-decoration: line-through;
-  background-color: rgba(201, 192, 198, 0.5);
+  background-color: darkgrey;
   padding: 10px 20px;
 
 }
-
 header {
   text-align: center;
   margin: 1rem;
@@ -71,7 +65,6 @@ header {
 
 .formControl {
   margin: 20px 0;
-  color: white;
 }
 
 
@@ -86,8 +79,8 @@ header {
 }
 
 .btn-submit {
-  /* display: block; */
+
   width: 100%;
-  background-color: #B5242C;
+  background-color: purple;
   margin: 2rem 0;
 }
