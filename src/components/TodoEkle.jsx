@@ -9,6 +9,8 @@ const TodoEkle = ({ doing, setDoing }) => {
   const handleSubmiTT = (e) =>{
     e.preventDefault();
 
+    localStorage.setItem("todoList", JSON.stringify([...doing,{id:doing.length+1,text:texT,day:day,isDone:false}]))
+
     setDoing([...doing, {id:doing.length, text:texT, day:day, isDone:false}]);
     setText("");
     setDay("");

@@ -5,12 +5,14 @@ import { FaCheckCircle } from "react-icons/fa";
 const ToDoGoster = ({doing,setDoing}) => {
 //console.log(doing);
 
-const deleteTodo = (id) =>{
-
-  setDoing(doing.filter((a)=>a.id !== id));
-
-}
-
+const deleteTodo = (id) => {
+  localStorage.setItem(
+    "todoList",
+    JSON.stringify(doing.filter((i) => i.id !== id))
+  );
+ 
+  setDoing(JSON.parse(localStorage.getItem("todoList")));
+  };
 
   return (
     <div>
