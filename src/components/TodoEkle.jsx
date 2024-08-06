@@ -24,7 +24,7 @@ const TodoEkle = ({ doing, setDoing }) => {
         <button
          onClick={()=> setButon(!buton)}
          className="btn" 
-         style={{ backgroundColor: buton ? "green" : "purple"}}>
+         style={{ color:"black", backgroundColor: buton ? "#f5f5dc" : "#ffdcb2"}}>
          {buton ? "CLOSE" : "SHOW"} ADD TASK BAR
         </button>
       </header>

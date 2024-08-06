@@ -33,11 +33,11 @@ const deleteTodo = (id) => {
 
     )
     }
-    style={{color:"green", fontSize:"20px"}}/>
+    style={{color:"#fff9c4", fontSize:"20px"}}/>
 
     <MdDeleteForever 
     onClick={()=> deleteTodo(x.id)}
-    style={{color:"red", fontSize:"25px"}}/>
+    style={{color:"rgb(255, 220, 178)", fontSize:"25px"}}/>
     </div>
     
     </h3>

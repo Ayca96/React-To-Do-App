@@ -8,9 +8,10 @@
 
 body{
   height: 100vh;
-  background-image: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4, #fbc2eb, #fbc2eb);
-  font-family:"Poppins", sans-serif;
-
+  /* background-image: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4, #fbc2eb, #fbc2eb);
+  font-family:"Poppins", sans-serif; */
+  background-image: url(./img/todoApp.avif);
+  background-size: cover;
 }
 
 .container {
@@ -33,16 +34,16 @@ h3 {
 /* yapılmamış false */
 .sariFalse {
 
-  background: rgb(193, 193, 61);
+  background: #DCD7CF;
   margin: 5px;
   padding: 10px 20px;
   cursor: pointer;
 }
 /* yapılmış true */
 .griTrue {
-  border-left: 10px solid rgb(102, 18, 77);
+  border-left: 10px solid #B3ACA2;
   text-decoration: line-through;
-  background-color: darkgrey;
+  background-color: #707A3F;
   padding: 10px 20px;
 
 }
@@ -81,6 +82,7 @@ header {
 .btn-submit {
 
   width: 100%;
-  background-color: purple;
+  background-color: #ffdcb2;
   margin: 2rem 0;
+  color: black;
 }
